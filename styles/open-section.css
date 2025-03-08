@@ -1,0 +1,28 @@
+.open-section {
+    width: 73%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+.open-section .title {
+    font-size: 3.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.open-section .desc {
+    font-size: 1.8rem;
+    color: #666666
+}
+
+.open-section .open-account {
+    background-color: #387ed1;
+    color: white;
+    font-size: 2rem;
+    padding: 1.2rem 3rem;
+    border:none;
+}
