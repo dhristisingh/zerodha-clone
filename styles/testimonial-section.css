@@ -45,6 +45,11 @@
     margin-right: 2rem;
     color: #387ed1;
     font-size: 1.6rem;
+    transition: color 0.2s;
+}
+
+.marketing-links a:hover {
+    color: #000;
 }
 
 .press-logo-wrapper {

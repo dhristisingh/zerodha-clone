@@ -1,16 +1,19 @@
 .promo-section {
     width: 73%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
 }
 
 .promo-1 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    height: 20rem;
 }
 
 .promo-1 .promo-left {
-    width: 50%;
+    width: 40%;
 }
 .promo-1 .promo-left .promo-title {
     font-size: 3.2rem;
@@ -23,26 +26,73 @@
     color: #424242;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    line-height: 3rem;
 }
 
 .promo-1 a {
     color: #387ed1;
-
     font-size: 1.6rem;
+    transition: color 0.2s;
 }
+
+.promo-1 a:hover {
+    color: #000;
+}
+
 .promo-right {
     display: flex;
-    position: relative;
+    width: 60%;
     justify-content: space-between;
+    align-items: center;
 }
 .pricing-offer img {
     width: 12rem;
 }
 .promo-1 .pricing-offer {
-    width: 20rem;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    position: relative;
 }
 .promo-1 .promo-pricing-text {
-    position: absolute;
-    top: 0;
+    position: relative;
+    right: 1rem;
+    bottom: -1rem;
+    width: 12rem;
+    color: #666666;
+    font-size: 1rem;
+}
 
+
+
+.promo-2 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo-2 .left img {
+    width: 40rem;
+}
+
+.promo-2 .right {
+    width: 50%;
+}
+.promo-2 .promo-title {
+    font-size: 3.5rem;
+}
+
+.promo-2 .promo-desc,
+.promo-2 a {
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.promo-2 a {
+    color: #387ed1;
+    line-height: 2rem;
+}
+
+.promo-2 .space-top {
+    margin-top: 3rem;
 }
