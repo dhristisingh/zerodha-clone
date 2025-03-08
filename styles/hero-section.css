@@ -1,0 +1,67 @@
+main {  
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    height: 100vh;
+    max-height: 100vh;
+    width: 75%;
+    margin: auto;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hero-image {
+    margin-top: 6rem;
+}
+.hero-image img {
+    width: 80rem;
+}
+
+.hero-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 4.5rem;
+    color: #424242;
+    font-weight: 500;
+    margin-top: 7rem;
+    margin-bottom: 0rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.hero-desc {
+    color: #424242;
+    font-size: 2.1rem;
+
+}
+
+.signup-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.2rem;
+}
+
+.signup-button button {
+    width: 20rem;
+    height: 4.8rem;
+    background-color: #387ed1;
+    color: white;
+    font-size: 1.9rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: 500
+
+}
+
+.signup-button button:hover {
+    background-color: #000;
+}

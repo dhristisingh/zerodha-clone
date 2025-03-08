@@ -1,0 +1,54 @@
+.testimonial-section  {
+    width: 73%;
+    margin: auto;
+}
+
+.section-title {
+    font-size:3.6rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.testimonial-left {
+    width: 37.8%;
+}
+
+.testimonial-title {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+}
+
+.testimonial-desc {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+    color: #424242;
+}
+
+.testimonial-right img {
+    width: 62rem;
+}
+
+.marketing-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.marketing-links a {
+    margin-right: 2rem;
+    color: #387ed1;
+    font-size: 1.6rem;
+}
+
+.press-logo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
