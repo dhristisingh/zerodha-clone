@@ -1,0 +1,48 @@
+.promo-section {
+    width: 73%;
+    margin: auto;
+}
+
+.promo-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo-1 .promo-left {
+    width: 50%;
+}
+.promo-1 .promo-left .promo-title {
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem;
+}
+
+.promo-1 .promo-left .promo-desc {
+    font-size: 1.6rem;
+    color: #424242;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.promo-1 a {
+    color: #387ed1;
+
+    font-size: 1.6rem;
+}
+.promo-right {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.pricing-offer img {
+    width: 12rem;
+}
+.promo-1 .pricing-offer {
+    width: 20rem;
+}
+.promo-1 .promo-pricing-text {
+    position: absolute;
+    top: 0;
+
+}
