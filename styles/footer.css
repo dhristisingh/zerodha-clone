@@ -1,7 +1,8 @@
 footer {
-    width: 95%;
+    width: 73%;
     margin: auto;
     background-color: #fbfbfb;
+
 }
 
 .footer-top {
@@ -35,6 +36,7 @@ footer .copyright {
     color: #666666;
     padding: 0.8rem 2.2rem 2.5rem 0;
     transition: color 0.2s;
+    cursor: pointer;
 }
 
 .footer-top .container i:hover {
@@ -42,14 +44,57 @@ footer .copyright {
 }
 
 .container ul {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0;
 
 }
 .container li {
     list-style: none;
+    font-size: 1.6rem;
 }
 .container .container-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: black;
+}
+
+.footer-bottom {
+    font-size: 1.1rem;
+
+}
+.footer-bottom p {
+    color: #666666
+}
+
+
+.footer-bottom a {
+    color: #387ed1;
+    font-size: 1.1rem;
+}
+
+.footer-bottom a:hover {
+    color: #000
+}
+
+.footer-bottom ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+
+}
+
+.footer-bottom li {
+    transition: color 0.2s;
+
+}
+
+.footer-bottom ul a {
+    color: #666666;
+    font-size: 1.2rem;
+
+}
+
+.footer-bottom ul a:hover {
+    color: #387ed1
 }
