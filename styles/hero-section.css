@@ -4,22 +4,23 @@ main {
 }
 
 .hero-section {
-    height: 100vh;
-    max-height: 100vh;
     width: 75%;
     margin: auto;
     margin-top: 7rem;
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    margin-bottom: 3rem;
 }
 
 .hero-image {
     margin-top: 6rem;
+    display: flex;
+    justify-content: center;
 }
 .hero-image img {
-    width: 80rem;
+    width: 80%;
+
 }
 
 .hero-body {
@@ -41,7 +42,7 @@ main {
 .hero-desc {
     color: #424242;
     font-size: 2.1rem;
-
+    text-align: center;
 }
 
 .signup-button {
@@ -58,10 +59,18 @@ main {
     font-size: 1.9rem;
     border: none;
     border-radius: 0.3rem;
-    font-weight: 500
-
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .signup-button button:hover {
     background-color: #000;
+}
+
+
+@media  (max-width: 960px) {
+    .hero-section {
+        width: 95%;
+    }
+
 }

@@ -31,13 +31,23 @@
     color: #424242;
 }
 
+.testimonial-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
 .testimonial-right img {
-    width: 62rem;
+    width: 90%;
 }
 
 .marketing-links {
     display: flex;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
     margin-top: 2rem;
 }
 
@@ -55,5 +65,45 @@
 .press-logo-wrapper {
     display: flex;
     justify-content: center;
+    width: 95%;
+}
+
+.press-logos {
+    width: 100%;
+}
+
+
+@media (max-width: 960px) {
+    .testimonial-section {
+        width: 95%;
+        margin-top: 10rem;
+    }
+
+    .testimonial-left {
+        width: 39.4%;
+    }
+
+    .testimonial-section .testimonial-left .section-title {
+        font-size: 3.4rem;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .testimonials {
+        flex-direction: column;
+        margin-bottom: 10rem;
+    }
+
+    .testimonial-left {
+        width: 100%;
+    }
+
+    .testimonial-right {
+        width: 100%
+    }
+    .testimonial-right img {
+        width: 100%;
+    }
 }
 

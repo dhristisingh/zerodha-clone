@@ -25,4 +25,22 @@
     font-size: 2rem;
     padding: 1.2rem 3rem;
     border:none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.open-section .open-account:hover {
+    background-color: #000;
+    color: white;
+
+}
+
+@media (max-width: 960px) {
+    .open-section {
+        width: 95%;
+    }
+
+    .open-section .desc {
+        text-align: center;
+    }
 }

@@ -29,13 +29,13 @@
     line-height: 3rem;
 }
 
-.promo-1 a {
+.see-pricing {
     color: #387ed1;
     font-size: 1.6rem;
     transition: color 0.2s;
 }
 
-.promo-1 a:hover {
+.see-pricing:hover {
     color: #000;
 }
 
@@ -44,6 +44,7 @@
     width: 60%;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 .pricing-offer img {
     width: 12rem;
@@ -63,6 +64,10 @@
     font-size: 1rem;
 }
 
+.see-pricing {
+    display: block;
+
+}
 
 
 .promo-2 {
@@ -72,11 +77,12 @@
 }
 
 .promo-2 .left img {
-    width: 40rem;
+    width: 90%
 }
 
 .promo-2 .right {
     width: 50%;
+
 }
 .promo-2 .promo-title {
     font-size: 3.5rem;
@@ -93,6 +99,86 @@
     line-height: 2rem;
 }
 
+.promo-2 a:hover {
+    color: #000;
+}
+
 .promo-2 .space-top {
     margin-top: 3rem;
+}
+
+@media (max-width: 960px) {
+    .promo-section {
+        width: 95%;
+    }
+
+    .promo-1 {
+        height: 30rem !important;
+    }
+
+    .promo-1 .promo-left {
+        width: 45%;
+    }
+
+    .promo-1 .promo-right {
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 56%;
+        align-items: center;
+    }
+
+
+    .promo-1 .pricing-offer {
+        width: 13rem;
+    }
+    .promo-1 .pricing-offer img{
+        width: 8rem;
+    }
+
+    .promo-1 .promo-pricing-text {
+        width: 10rem;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .promo-1 {
+        flex-direction: column;
+    }
+
+    .promo-1 .promo-left {
+        width: 100%;
+    }
+
+    .promo-1 .promo-right {
+        width: 100%;
+    }
+
+    .promo-2 {
+        flex-direction: column;
+    }
+
+    .promo-2 .left {
+        display: flex;
+        justify-content: center;
+    }
+    .promo-2 .left img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .promo-2 .right {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .promo-1 {
+        height: 50rem !important;
+    }
+    .promo-1 .promo-right {
+        flex-direction: column;
+        align-items: start;
+    }
 }
